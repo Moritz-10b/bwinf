@@ -13,14 +13,9 @@ public class Node {
     public void insert(Hotel hotel) {
         this.children.add(new Node(hotel));
     }
-    public void printSubtree() {
-        if (children != null) {
-            System.out.println("");
-            System.out.print("kids: " + children.size()+ "  ");
-            for (Node child : children) {
-                child.data.printInfo();
-                child.printSubtree();
-            }
-        }
+
+    public void getSubtree() {
+
     }
-}
+    }
+

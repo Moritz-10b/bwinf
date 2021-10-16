@@ -14,6 +14,6 @@ public class Hotel {
         return rating;
     }
     public void printInfo() {
-        System.out.print("distance: " + distance + ", rating: " + rating + " | ");
+        System.out.print("distance: " + distance + ", rating: " + rating + " - ");
     }
 }
